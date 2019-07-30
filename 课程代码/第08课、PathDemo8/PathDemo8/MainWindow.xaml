@@ -1,0 +1,69 @@
+﻿<Window x:Class="PathDemo8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PathDemo8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Storyboard x:Key="Storyboard1">
+            <DoubleAnimationUsingPath Duration="0:0:2" Source="X" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="ellipse">
+                <DoubleAnimationUsingPath.PathGeometry>
+                    <PathGeometry Figures="M-197.39387,213.94399 C-171.26655,212.33616 -179.39587,164.29096 -155.89376,153.44388 C-128.84789,140.96122 -91.75574,179.57437 -86.393411,155.444 C-82.511201,137.97413 -34.49965,167.99998 -52.393418,91.94376 C-72.180132,7.8417108 -100.81058,73.002828 -128.8935,52.943687 C-172.99995,21.43922 -191.13336,9.837912 -231.89402,26.444032 C-231.89402,26.444032 -355.59319,78.075489 -355.59319,78.075489 C-358.59318,65.57554 -361.59318,53.07559 -364.59318,40.575641 C-340.50021,-29.999604 -382.44922,-28.855938 -413.39475,58.48654 C-449.69837,86.730474 -468.93836,73.017258 -466.5,6 L-502.093,54.575584 L-493.59301,234.0751 L-418.59311,267.07506 L-366.09317,319.575 L-345.0932,298.57503 L-366.84317,276.82505 L-353.34319,263.32506 L-339.84321,249.82508 L-309.09325,274.57505 L-301.59326,246.07508 L-360.09318,234.0751 C-225.00037,133.49997 -301.50026,125.99997 -345.0932,156.07519 L-402.09313,196.57513 L-444.09307,154.57518 C-444.09307,154.57518 -372.09317,132.07527 -372.09317,132.07527 C-331.50001,115.49996 -333.00001,127.49997 -333.00001,127.49997 L-298.50001,121.49996 z"/>
+                </DoubleAnimationUsingPath.PathGeometry>
+            </DoubleAnimationUsingPath>
+            <DoubleAnimationUsingPath Duration="0:0:2" Source="Y" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="ellipse">
+                <DoubleAnimationUsingPath.PathGeometry>
+                    <PathGeometry Figures="M-197.39387,213.94399 C-171.26655,212.33616 -179.39587,164.29096 -155.89376,153.44388 C-128.84789,140.96122 -91.75574,179.57437 -86.393411,155.444 C-82.511201,137.97413 -34.49965,167.99998 -52.393418,91.94376 C-72.180132,7.8417108 -100.81058,73.002828 -128.8935,52.943687 C-172.99995,21.43922 -191.13336,9.837912 -231.89402,26.444032 C-231.89402,26.444032 -355.59319,78.075489 -355.59319,78.075489 C-358.59318,65.57554 -361.59318,53.07559 -364.59318,40.575641 C-340.50021,-29.999604 -382.44922,-28.855938 -413.39475,58.48654 C-449.69837,86.730474 -468.93836,73.017258 -466.5,6 L-502.093,54.575584 L-493.59301,234.0751 L-418.59311,267.07506 L-366.09317,319.575 L-345.0932,298.57503 L-366.84317,276.82505 L-353.34319,263.32506 L-339.84321,249.82508 L-309.09325,274.57505 L-301.59326,246.07508 L-360.09318,234.0751 C-225.00037,133.49997 -301.50026,125.99997 -345.0932,156.07519 L-402.09313,196.57513 L-444.09307,154.57518 C-444.09307,154.57518 -372.09317,132.07527 -372.09317,132.07527 C-331.50001,115.49996 -333.00001,127.49997 -333.00001,127.49997 L-298.50001,121.49996 z"/>
+                </DoubleAnimationUsingPath.PathGeometry>
+            </DoubleAnimationUsingPath>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="image">
+                <EasingDoubleKeyFrame KeyTime="0" Value="12"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="image">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-20.36"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="image">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1.161"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="image">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1.161"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource Storyboard1}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+        <Path Data="M305.19914,229.363 C331.32647,227.75517 323.19714,179.70998 346.69925,168.8629 373.74513,156.38025 410.83728,194.99339 416.19961,170.86303 420.08182,153.39316 468.09337,183.419 450.19961,107.3628 430.41289,23.260771 401.78244,88.421873 373.69952,68.362737 329.59307,36.858277 311.45965,25.256972 270.69899,41.863088 270.69899,41.863088 146.99982,93.494533 146.99982,93.494533 143.99982,80.994586 140.99983,68.49464 137.99983,55.994693 162.0928,-14.580535 120.14379,-13.43687&#xD;&#xA;89.198258,73.905588 52.89463,102.14952 33.654646,88.436304 36.093002,21.419061 L0.50000001,69.994633 8.9999896,249.49411 83.999897,282.49406 136.49983,334.99399 157.49981,313.99402 135.74983,292.24405 149.24982,278.74407 162.7498,265.24408 193.49976,289.99405 200.99975,261.49408 142.49983,249.49411 C277.59265,148.919 201.09275,141.419 157.49981,171.49421 L100.49988,211.99415 58.499929,169.99421 C58.499929,169.99421 130.49984,147.4943 130.49984,147.4943 171.093,130.919 169.593,142.919 169.593,142.919 L204.093,136.919 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="330.479" Margin="70.907,37.596,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="454.68"/>
+        <Ellipse x:Name="ellipse" HorizontalAlignment="Left" Height="36" Margin="555.5,30,0,0" VerticalAlignment="Top" Width="36" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Fill>
+                <RadialGradientBrush>
+                    <GradientStop Color="Red" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </RadialGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Image x:Name="image" Margin="447.5,226.5,5.5,5.758" Source="Blend教学.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Clip="M273,9.5 C304.20409,9.5 329.5,47.220011 329.5,93.75 C329.5,101.74734 328.75273,109.48443 327.35664,116.81447 L327.18352,117.68229 L327.18452,117.68606 C327.72264,119.91739 328,122.19162 328,124.5 C328,134.19519 323.10732,143.28804 314.55241,151.13 L314.13025,151.50639 L313.89857,151.87748 C303.60841,167.97141 289.0896,178 273,178 C268.12436,178 263.39296,177.0791 258.87976,175.34759 L258.6312,175.24728 L256.683,175.59474 C247.14819,177.15791 237.01067,178 226.5,178 C170.4431,178 125,154.04723 125,124.5 C125,96.799469 164.94022,74.015949 216.12222,71.276215 L218.55685,71.162258 L218.64336,70.685529 C225.37,35.368046 247.15912,9.5 273,9.5 z">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+    </Grid>
+</Window>

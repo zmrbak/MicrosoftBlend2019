@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+   *********  请勿修改此文件   *********
+   此文件由设计工具再生成。更改
+   此文件可能会导致错误。
+-->
+<xs:schema xmlns:blend="http://schemas.microsoft.com/expression/blend/2008" xmlns:tns="Expression.Blend.SampleData.人员信息表SampleDataSource" targetNamespace="Expression.Blend.SampleData.人员信息表SampleDataSource" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="renyuans" type="tns:renyuans" />
+  <xs:complexType name="renyuans">
+    <xs:sequence>
+      <xs:element name="renyuanCollection" type="tns:renyuanCollection" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="renyuanCollection">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" name="renyuan" type="tns:renyuan" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="renyuan">
+    <xs:attribute name="编号" type="xs:double" />
+    <xs:attribute name="姓名" type="xs:string" />
+    <xs:attribute name="地址" type="xs:string" />
+  </xs:complexType>
+</xs:schema>

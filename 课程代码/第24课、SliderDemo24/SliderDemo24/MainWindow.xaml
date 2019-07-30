@@ -1,0 +1,30 @@
+﻿<Window x:Class="SliderDemo24.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SliderDemo24"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Slider x:Name="slider" HorizontalAlignment="Left" Height="52.5" Margin="45.5,70.5,0,0" VerticalAlignment="Top" Width="598.5" TickPlacement="Both" Foreground="#FF2EAC28" BorderThickness="2" Maximum="720" TickFrequency="72" Value="40" AutoToolTipPlacement="BottomRight"/>
+        <Ellipse HorizontalAlignment="Left" Height="105" Margin="176,207,0,0" Stroke="Black" VerticalAlignment="Top" Width="306" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="{Binding Value, ElementName=slider, Mode=OneWay}"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.504,1.183" StartPoint="0.444,-0.017">
+                    <GradientStop Color="#FFF12323" Offset="0.067"/>
+                    <GradientStop Color="#FF2A48AE" Offset="0.762"/>
+                    <GradientStop Color="#FFA1F788" Offset="0.46"/>
+                    <GradientStop Color="#FFAE2A5A" Offset="0.983"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+    </Grid>
+</Window>

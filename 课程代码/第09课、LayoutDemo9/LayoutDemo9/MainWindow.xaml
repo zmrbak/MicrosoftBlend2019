@@ -1,0 +1,24 @@
+﻿<Window x:Class="LayoutDemo9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LayoutDemo9"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" MinWidth="300">
+    <Viewbox FlowDirection="RightToLeft">
+        <Grid Height="419" Width="792">
+            <Button Content="Button01"     Margin="396,0,198,314.25"     />
+            <Button Content="Button02"     Margin="594,0,0,314.25"     />
+            <Button Content="Button03"     Margin="0,104.75,594,209.5"     />
+            <Button Content="Button04"     Margin="198,104.75,396,209.5"     />
+            <Button Content="Button05"     Margin="396,104.75,198,209.5"     />
+            <Button Content="Button06"     Margin="594,104.75,0,209.5"     />
+            <Button Content="Button07"     Margin="0,209.5,594,104.75"     />
+            <Button Content="Button08"     Margin="198,209.5,396,104.75"     />
+            <Button Content="Button09"     Margin="396,209.5,198,104.75"     />
+            <Button Content="Button10"     Margin="594,209.5,0,104.75"     />
+            <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
+        </Grid>
+    </Viewbox>
+</Window>

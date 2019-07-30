@@ -1,0 +1,32 @@
+﻿<Window x:Class="Demo6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Demo6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Margin="30.5,231.5,603.5,69" Source="pict4.JPG" Stretch="Fill" Panel.ZIndex="4"/>
+        <Image Margin="19.5,126.5,598.5,162" Source="pict2.JPG" Stretch="Fill" Panel.ZIndex="4"/>
+        <Image Margin="18.5,41,604,256.834" Source="pict1.jpg" Stretch="Fill" Panel.ZIndex="4"/>
+        <Grid HorizontalAlignment="Left" Height="366" Margin="201,46,0,0" VerticalAlignment="Top" Width="210">
+            <Image Source="pict2.JPG" Width="200" />
+            <Image Source="pict4.JPG" Width="200" Opacity="0.5" />
+        </Grid>
+        <StackPanel HorizontalAlignment="Left" Height="363" Margin="431,43,0,0" VerticalAlignment="Top" Width="232">
+            <Image Source="pict4.JPG" Width="200"/>
+            <Image Source="pict4.JPG" Width="200" RenderTransformOrigin="0.5,0.5" Opacity="0.585">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="-1" ScaleX="1"/>
+                        <SkewTransform AngleY="0" AngleX="0"/>
+                        <RotateTransform Angle="0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </StackPanel>
+
+    </Grid>
+</Window>

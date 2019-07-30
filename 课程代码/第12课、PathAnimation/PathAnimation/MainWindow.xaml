@@ -1,0 +1,73 @@
+﻿<Window x:Class="PathAnimation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PathAnimation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Storyboard x:Key="Storyboard1" RepeatBehavior="1x" AutoReverse="True">
+            <DoubleAnimationUsingPath Duration="0:0:2" Source="X" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="ellipse">
+                <DoubleAnimationUsingPath.PathGeometry>
+                    <PathGeometry Figures="M27.10055,-292.11089 L117.48755,-303.69521 L234.97538,-303.69521 L390.14753,-312.562 L383.49754,-252.70899 L201.72415,-195.07385 L257.14286,-128.57115 L450,-139.65529 L474.38474,-219.45818 L483.25144,-283.74384 L547.53681,-305.91131 L618.47325,-305.91131 L656.15839,-230.54191 L669.45898,-164.0395 L642.85759,-115.27107 L512.06932,-44.335047 L418.96581,-17.73401 L175.12327,-17.73401 L39.901502,-50.985192 L17.733998,-164.03938 z"/>
+                </DoubleAnimationUsingPath.PathGeometry>
+            </DoubleAnimationUsingPath>
+            <DoubleAnimationUsingPath Duration="0:0:2" Source="Y" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="ellipse">
+                <DoubleAnimationUsingPath.PathGeometry>
+                    <PathGeometry Figures="M27.10055,-292.11089 L117.48755,-303.69521 L234.97538,-303.69521 L390.14753,-312.562 L383.49754,-252.70899 L201.72415,-195.07385 L257.14286,-128.57115 L450,-139.65529 L474.38474,-219.45818 L483.25144,-283.74384 L547.53681,-305.91131 L618.47325,-305.91131 L656.15839,-230.54191 L669.45898,-164.0395 L642.85759,-115.27107 L512.06932,-44.335047 L418.96581,-17.73401 L175.12327,-17.73401 L39.901502,-50.985192 L17.733998,-164.03938 z"/>
+                </DoubleAnimationUsingPath.PathGeometry>
+            </DoubleAnimationUsingPath>
+            <DoubleAnimationUsingPath Duration="0:0:2" Source="X" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path" BeginTime="0:0:1" RepeatBehavior="Forever">
+                <DoubleAnimationUsingPath.PathGeometry>
+                    <PathGeometry Figures="M23.77505,-295.43589 L114.16205,-307.02021 L231.64988,-307.02021 L386.82203,-315.887 L380.17204,-256.03399 L198.39865,-198.39885 L253.81736,-131.89615 L446.6745,-142.98029 L471.05924,-222.78318 L479.92594,-287.06884 L544.21131,-309.23631 L615.14775,-309.23631 L652.83289,-233.86691 L666.13348,-167.3645 L639.53209,-118.59607 L508.74382,-47.660047 L415.64031,-21.05901 L171.79777,-21.05901 L36.576002,-54.310192 L14.408498,-167.36438 z"/>
+                </DoubleAnimationUsingPath.PathGeometry>
+            </DoubleAnimationUsingPath>
+            <DoubleAnimationUsingPath Duration="0:0:2" Source="Y" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="path" BeginTime="0:0:1" RepeatBehavior="Forever">
+                <DoubleAnimationUsingPath.PathGeometry>
+                    <PathGeometry Figures="M23.77505,-295.43589 L114.16205,-307.02021 L231.64988,-307.02021 L386.82203,-315.887 L380.17204,-256.03399 L198.39865,-198.39885 L253.81736,-131.89615 L446.6745,-142.98029 L471.05924,-222.78318 L479.92594,-287.06884 L544.21131,-309.23631 L615.14775,-309.23631 L652.83289,-233.86691 L666.13348,-167.3645 L639.53209,-118.59607 L508.74382,-47.660047 L415.64031,-21.05901 L171.79777,-21.05901 L36.576002,-54.310192 L14.408498,-167.36438 z"/>
+                </DoubleAnimationUsingPath.PathGeometry>
+            </DoubleAnimationUsingPath>
+            <DoubleAnimationUsingPath BeginTime="0:0:1" Duration="0:0:2" Source="Angle" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="path" RepeatBehavior="Forever">
+                <DoubleAnimationUsingPath.PathGeometry>
+                    <PathGeometry Figures="M23.77505,-295.43589 L114.16205,-307.02021 L231.64988,-307.02021 L386.82203,-315.887 L380.17204,-256.03399 L198.39865,-198.39885 L253.81736,-131.89615 L446.6745,-142.98029 L471.05924,-222.78318 L479.92594,-287.06884 L544.21131,-309.23631 L615.14775,-309.23631 L652.83289,-233.86691 L666.13348,-167.3645 L639.53209,-118.59607 L508.74382,-47.660047 L415.64031,-21.05901 L171.79777,-21.05901 L36.576002,-54.310192 L14.408498,-167.36438 z"/>
+                </DoubleAnimationUsingPath.PathGeometry>
+            </DoubleAnimationUsingPath>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource Storyboard1}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FFFD2610" Offset="0"/>
+            <GradientStop Color="White" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Path Data="M80.236453,77.187192 L170.6236,65.603643 288.11162,65.603643 443.28402,56.737443 436.63402,116.58646 254.86033,174.21777 310.27914,240.71603 503.13659,229.63264 527.52137,149.83506 536.38808,85.553686 600.67356,63.387693 671.61011,63.387693 709.29532,138.75207 722.59592,205.25005 695.9945,254.01523 565.20601,324.94653 472.10235,351.5458 228.25942,351.5458 93.037426,318.29683 70.869886,205.25017 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="295.828" Margin="70.869,56.736,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="652.725"/>
+        <Ellipse x:Name="ellipse" Fill="Blue" HorizontalAlignment="Left" Height="35.468" Margin="35.901,352.064,0,0" VerticalAlignment="Top" Width="35.468" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Path x:Name="path" Data="M-4.4668785E-37,1.3529961E-05 L73.152947,1.3529961E-05 L62.069202,42.118266" Fill="Blue" HorizontalAlignment="Left" Height="42.118" Margin="20.384,352.064,0,0" VerticalAlignment="Top" Width="73.153" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+
+    </Grid>
+</Window>

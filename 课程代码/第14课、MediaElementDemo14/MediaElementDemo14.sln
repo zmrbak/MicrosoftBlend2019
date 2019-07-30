@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.28606.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaElementDemo14", "MediaElementDemo14\MediaElementDemo14.csproj", "{38D8BABB-5982-4DF7-9228-6BBBDF78ECA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38D8BABB-5982-4DF7-9228-6BBBDF78ECA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D8BABB-5982-4DF7-9228-6BBBDF78ECA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D8BABB-5982-4DF7-9228-6BBBDF78ECA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D8BABB-5982-4DF7-9228-6BBBDF78ECA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AB1E04B-D4E1-4DC1-ACEE-BB000F7B0805}
+	EndGlobalSection
+EndGlobal

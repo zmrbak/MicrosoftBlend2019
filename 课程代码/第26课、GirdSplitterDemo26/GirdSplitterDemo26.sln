@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.28606.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GirdSplitterDemo26", "GirdSplitterDemo26\GirdSplitterDemo26.csproj", "{F9CCE1EE-5EF1-4878-830D-FEC1737B2DFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9CCE1EE-5EF1-4878-830D-FEC1737B2DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CCE1EE-5EF1-4878-830D-FEC1737B2DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CCE1EE-5EF1-4878-830D-FEC1737B2DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CCE1EE-5EF1-4878-830D-FEC1737B2DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87227A69-4642-44D9-92A3-2B43F55E2C22}
+	EndGlobalSection
+EndGlobal

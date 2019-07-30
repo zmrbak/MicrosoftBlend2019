@@ -1,0 +1,24 @@
+﻿<Window x:Class="AudioDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AudioDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Storyboard x:Key="TestMp3_mp3">
+            <MediaTimeline Source="TestMp3.mp3" Storyboard.TargetName="TestMp3_mp3" d:DesignTimeNaturalDuration="198.0080625"/>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource TestMp3_mp3}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+        <MediaElement x:Name="TestMp3_mp3" Margin="893.436,296.077,-280.923,56.256" Stretch="Fill"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="69.23" Margin="124.205,137.103,0,0" VerticalAlignment="Top" Width="182.051" Click="Button_Click"/>
+
+    </Grid>
+</Window>

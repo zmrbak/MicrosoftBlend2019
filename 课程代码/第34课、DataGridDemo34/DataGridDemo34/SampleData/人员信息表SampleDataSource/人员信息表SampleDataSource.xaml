@@ -1,0 +1,15 @@
+﻿<!--
+   *********  请勿修改此文件   *********
+   此文件由设计工具再生成。更改
+   此文件可能会导致错误。
+-->
+<人员信息表SampleDataSource:renyuans xmlns:人员信息表SampleDataSource="clr-namespace:Expression.Blend.SampleData.人员信息表SampleDataSource">
+	<人员信息表SampleDataSource:renyuans.renyuanCollection>
+		<人员信息表SampleDataSource:renyuan 编号="1" 姓名="李芳" 地址="北京市打伞胡同2号"/>
+		<人员信息表SampleDataSource:renyuan 编号="2" 姓名="张筱雨" 地址="南京市雨花台路100号"/>
+		<人员信息表SampleDataSource:renyuan 编号="3" 姓名="王兰萍" 地址="天津市梅江南路3号"/>
+		<人员信息表SampleDataSource:renyuan 编号="4" 姓名="姚家辉" 地址="广州市越秀路62号"/>
+		<人员信息表SampleDataSource:renyuan 编号="5" 姓名="陈震" 地址="石家庄市湖南路45号"/>
+		<人员信息表SampleDataSource:renyuan 编号="6" 姓名="方静海" 地址="上海姚家湾5弄3号"/>
+	</人员信息表SampleDataSource:renyuans.renyuanCollection>
+</人员信息表SampleDataSource:renyuans>

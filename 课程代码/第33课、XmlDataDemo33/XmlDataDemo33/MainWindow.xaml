@@ -1,0 +1,27 @@
+﻿<Window x:Class="XmlDataDemo33.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XmlDataDemo33"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <DataTemplate x:Key="renyuanTemplate">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="{Binding XPath=@编号}" Foreground="Red" Width="35.11"/>
+                <TextBlock Text="{Binding XPath=@姓名}" Foreground="#FF2D783E" FontWeight="Bold" Width="50"/>
+                <TextBlock Text="{Binding XPath=@地址}" Foreground="#FF0C61F5" Width="132.037"/>
+            </StackPanel>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid DataContext="{Binding Source={StaticResource 人员信息表DataSource}}" >
+        <ListBox HorizontalAlignment="Left" Height="103" ItemTemplate="{DynamicResource renyuanTemplate}" ItemsSource="{Binding}" Margin="64.719,48.369,0,0" VerticalAlignment="Top" Width="336" IsSynchronizedWithCurrentItem="True"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="22" Margin="67,160,0,0" TextWrapping="Wrap" Text="{Binding Mode=TwoWay, UpdateSourceTrigger=Explicit, XPath=@编号}" VerticalAlignment="Top" Width="67"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="22" Margin="145,160,0,0" TextWrapping="Wrap" Text="{Binding Mode=TwoWay, UpdateSourceTrigger=Explicit, XPath=@姓名}" VerticalAlignment="Top" Width="67"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="22" Margin="230,159,0,0" TextWrapping="Wrap" Text="{Binding Mode=TwoWay, UpdateSourceTrigger=Explicit, XPath=@地址}" VerticalAlignment="Top" Width="168"/>
+        <Button Content="更新" HorizontalAlignment="Left" Height="24" Margin="68,191,0,0" VerticalAlignment="Top" Width="73" Click="Button_Click"/>
+        <Button Content="保存" HorizontalAlignment="Left" Height="24" Margin="153,191,0,0" VerticalAlignment="Top" Width="73" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

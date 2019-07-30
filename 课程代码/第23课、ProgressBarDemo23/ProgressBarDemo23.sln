@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.28606.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressBarDemo23", "ProgressBarDemo23\ProgressBarDemo23.csproj", "{D5D022DE-E2C1-495B-B194-1CE0C8F454BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5D022DE-E2C1-495B-B194-1CE0C8F454BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D022DE-E2C1-495B-B194-1CE0C8F454BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D022DE-E2C1-495B-B194-1CE0C8F454BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D022DE-E2C1-495B-B194-1CE0C8F454BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A4F2A94-DCFB-4445-8321-2B27B5822CB6}
+	EndGlobalSection
+EndGlobal

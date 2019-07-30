@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.28711.60
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuDemo36", "MenuDemo36\MenuDemo36.csproj", "{2AAC2692-C431-4BD0-8BB5-1BAC854BE296}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AAC2692-C431-4BD0-8BB5-1BAC854BE296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AAC2692-C431-4BD0-8BB5-1BAC854BE296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AAC2692-C431-4BD0-8BB5-1BAC854BE296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AAC2692-C431-4BD0-8BB5-1BAC854BE296}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2803D2B-F2A4-4647-8728-8A38B8E80287}
+	EndGlobalSection
+EndGlobal

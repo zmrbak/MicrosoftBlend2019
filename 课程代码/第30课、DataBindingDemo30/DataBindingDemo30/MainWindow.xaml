@@ -1,0 +1,16 @@
+﻿<Window x:Class="DataBindingDemo30.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataBindingDemo30"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF481BA8">
+        <Slider x:Name="slider" HorizontalAlignment="Left" Height="28.5" Margin="65,75,0,0" VerticalAlignment="Top" Width="687" Maximum="100" Value="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="39" Margin="63.5,129,0,0" TextWrapping="Wrap" Text="{Binding Value, ElementName=slider, Mode=OneWay}" VerticalAlignment="Top" Width="138" FontSize="36" Foreground="#FF32D322"/>
+        <TextBox HorizontalAlignment="Left" Height="51" Margin="305,127.5,0,0" TextWrapping="Wrap" Text="{Binding Value, ElementName=slider, Mode=OneWayToSource,UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="121.5" FontSize="36" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="46.5" Margin="471.5,127.5,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="165"/>
+
+    </Grid>
+</Window>

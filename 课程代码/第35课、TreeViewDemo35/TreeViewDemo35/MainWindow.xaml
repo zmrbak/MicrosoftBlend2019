@@ -1,0 +1,30 @@
+﻿<Window x:Class="TreeViewDemo35.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TreeViewDemo35"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TreeView x:Name="treeView" HorizontalAlignment="Left" Height="340.5" Margin="23,25.5,0,0" VerticalAlignment="Top" Width="219" SelectedItemChanged="TreeView_SelectedItemChanged">
+            <TreeViewItem Header="TreeViewItem1" IsExpanded="True" Background="#FFDCB2B2" FontWeight="Bold" FontFamily="MS PGothic" >
+                <TreeViewItem Header="TreeViewItem1.1" IsExpanded="True" >
+                    <TreeViewItem Header="TreeViewItem1.1.1" />
+                    <TreeViewItem Header="TreeViewItem1.1.2" Selected="TreeViewItem_Selected" />
+                </TreeViewItem>
+                <TreeViewItem Header="TreeViewItem1.2" />
+                <TreeViewItem Header="TreeViewItem1.3" />
+            </TreeViewItem>
+            <TreeViewItem Header="TreeViewItem2" >
+                <TreeViewItem Header="TreeViewItem2.1" />
+                <TreeViewItem Header="TreeViewItem2.2" />
+                <TreeViewItem Header="TreeViewItem2.3" />
+
+            </TreeViewItem>
+            <TreeViewItem Header="TreeViewItem3" />
+        </TreeView>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="48" Margin="359,39,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="327"/>
+
+    </Grid>
+</Window>

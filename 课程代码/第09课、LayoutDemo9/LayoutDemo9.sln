@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.28531.58
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutDemo9", "LayoutDemo9\LayoutDemo9.csproj", "{AAC657FB-298F-4CB7-997E-B06483D51FBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAC657FB-298F-4CB7-997E-B06483D51FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC657FB-298F-4CB7-997E-B06483D51FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC657FB-298F-4CB7-997E-B06483D51FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC657FB-298F-4CB7-997E-B06483D51FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {682B805C-0382-49FF-BF66-68373A9F72DC}
+	EndGlobalSection
+EndGlobal
