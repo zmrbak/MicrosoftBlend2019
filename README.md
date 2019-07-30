@@ -23,6 +23,10 @@ QQ群：831482711
 
 # 学员评价
 <img src="https://github.com/zmrbak/WpfClassicalExamples/blob/master/%E5%AD%A6%E5%91%98%E8%AF%84%E4%BB%B7/IMG_20190720_071849.jpg?raw=true"/>
+---
 <img src="https://github.com/zmrbak/WpfClassicalExamples/blob/master/%E5%AD%A6%E5%91%98%E8%AF%84%E4%BB%B7/Screenshot_2019-07-20-07-24-56.png?raw=true"/>
+---
 <img src="https://github.com/zmrbak/WpfClassicalExamples/blob/master/%E5%AD%A6%E5%91%98%E8%AF%84%E4%BB%B7/Screenshot_2019-07-20-07-22-42.png?raw=true"/>
+---
 <img src="https://github.com/zmrbak/WpfClassicalExamples/blob/master/%E5%AD%A6%E5%91%98%E8%AF%84%E4%BB%B7/Screenshot_2019-07-29-12-27-27.png?raw=true"/>
+---
