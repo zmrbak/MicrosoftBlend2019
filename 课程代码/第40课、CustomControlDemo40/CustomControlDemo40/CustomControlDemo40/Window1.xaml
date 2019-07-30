@@ -1,0 +1,18 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CustomControlDemo40"
+        xmlns:WpfControlLibraryDemo40="clr-namespace:WpfControlLibraryDemo40;assembly=WpfControlLibraryDemo40" x:Class="CustomControlDemo40.Window1"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <local:UserControlAB Margin="104.621,86.054,425.803,284.177"/>
+        <local:UserControlAB HorizontalAlignment="Left" Height="68.719" Margin="441.567,148.123,0,0" VerticalAlignment="Top" Width="270.443"/>
+        <local:UserControlC HorizontalAlignment="Left" Height="310.344" Margin="80.236,101.572,0,0" VerticalAlignment="Top" Width="290.395"/>
+
+        <WpfControlLibraryDemo40:UserControl1 HorizontalAlignment="Left" Height="221.676" Margin="421.616,134.822,0,0" VerticalAlignment="Top" Width="305.911"/>
+
+    </Grid>
+</Window>

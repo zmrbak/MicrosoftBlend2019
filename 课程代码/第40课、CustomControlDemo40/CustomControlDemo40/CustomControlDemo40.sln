@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.28714.193
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControlDemo40", "CustomControlDemo40\CustomControlDemo40.csproj", "{DF03B33F-B379-4D0B-9691-17477E143663}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF03B33F-B379-4D0B-9691-17477E143663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF03B33F-B379-4D0B-9691-17477E143663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF03B33F-B379-4D0B-9691-17477E143663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF03B33F-B379-4D0B-9691-17477E143663}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E596AF60-E04B-4FA0-8787-BDF8006367B0}
+	EndGlobalSection
+EndGlobal

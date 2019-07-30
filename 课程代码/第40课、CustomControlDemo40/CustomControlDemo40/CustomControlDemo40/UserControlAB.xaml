@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="CustomControlDemo40.UserControlAB"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CustomControlDemo40"
+             mc:Ignorable="d" 
+             d:DesignHeight="48.769" d:DesignWidth="261.576">
+    <Grid>
+        <Button Content="A" HorizontalAlignment="Left" Height="48.769" Margin="0,0,-121.921,-48.769" VerticalAlignment="Top" Width="121.921" FontSize="36" Click="Button_Click"/>
+        <Button Content="B" HorizontalAlignment="Left" Height="48.769" Margin="139.655,0,-261.576,-48.769" VerticalAlignment="Top" Width="121.921" FontSize="36" Click="Button_Click_1"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="24.059" Margin="0,58.523,0,-33.813" VerticalAlignment="Top" Width="103.39"/>
+
+    </Grid>
+</UserControl>

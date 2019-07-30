@@ -1,0 +1,87 @@
+﻿<Window x:Class="FlowDocumentReaderDemo38.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlowDocumentReaderDemo38"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <FlowDocumentReader >
+        <FlowDocument>
+            <BlockUIContainer>
+                <StackPanel>
+                    <Button Content="Button" Width="75"/>
+                    <Calendar/>
+                    <Button Content="Click Me"/>
+                </StackPanel>
+            </BlockUIContainer>
+            <List>
+                <ListItem>
+                    <BlockUIContainer>
+                        <Button Content="Button" Width="75"/>
+                    </BlockUIContainer>
+                    <List/>
+                    <Paragraph>
+                        <Bold>
+                            <Run Text="This is a Bold"/>
+                        </Bold>
+                        <Figure/>
+                        <Floater/>
+                        <Hyperlink NavigateUri="http://www.baidu.com" Click="Hyperlink_Click" >
+                            <Run Text="This is a Hyperlink"/>
+                        </Hyperlink>
+                        <InlineUIContainer>
+                            <Calendar/>
+                        </InlineUIContainer>
+                        <LineBreak/>
+                        <Italic>
+                            <Run Text="This is a Italic"/>
+                        </Italic>
+                        <LineBreak/>
+                        <Run Text="This is a Run"/>
+                        <Span>
+                            <Run Text="This is a Span"/>
+                        </Span>
+                        <Underline>
+                            <Run Text="This is a Underline" Background="#FFD39494" Foreground="#FF0A3176" FontWeight="Bold" FontSize="22" FontStyle="Italic"/>
+                        </Underline>
+                    </Paragraph>
+                    <Section/>
+                    <Table/>
+                </ListItem>
+                <ListItem/>
+            </List>
+            <Paragraph/>
+            <Section/>
+            <Table>
+                <TableRowGroup>
+                    <TableRow>
+                        <TableCell>
+                            <BlockUIContainer>
+                                <Button Content="Cell Button1"/>
+                            </BlockUIContainer>
+                        </TableCell>
+                        <TableCell>
+                            <BlockUIContainer>
+                                <Button Content="Cell Button2"/>
+                            </BlockUIContainer>
+                        </TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell>
+                            <BlockUIContainer>
+                                <Button Content="Cell Button3"/>
+                            </BlockUIContainer>
+                        </TableCell>
+                        <TableCell>
+                            <BlockUIContainer>
+                                <Button Content="Cell Button4"/>
+                            </BlockUIContainer>
+                        </TableCell>
+                    </TableRow>
+                </TableRowGroup>
+                <TableRowGroup/>
+            </Table>
+        </FlowDocument>
+    </FlowDocumentReader>
+</Window>

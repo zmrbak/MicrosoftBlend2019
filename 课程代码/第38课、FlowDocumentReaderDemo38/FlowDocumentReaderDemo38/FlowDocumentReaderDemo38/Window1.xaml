@@ -1,0 +1,34 @@
+﻿<Window x:Class="FlowDocumentReaderDemo38.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlowDocumentReaderDemo38"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <FlowDocumentReader>
+        <FlowDocument>
+            <Paragraph>
+                <Run Text="【编前语】国无德不兴，人无德不立。习近平总书记一贯高度重视培养社会主义建设者和接班人，把立德树人作为教育的中心环节。新华社《学习进行时》为您梳理十八大以来总书记的有关精彩论述，与您共同学习感悟。" Background="#FFF0E6E6" Foreground="#FF1E49DA" FontWeight="Bold" FontSize="22"/>
+            </Paragraph>
+            <Paragraph>
+                <InlineUIContainer>
+                    <Image Source="faa30fa6117d7f75ee3db885f13d3968_t01a749efef3578e07d_size=654x453.png"/>
+                </InlineUIContainer>
+            </Paragraph>
+            <Paragraph>
+                <InlineUIContainer>
+                    <Button Content="This is a Button"/>
+                </InlineUIContainer>
+            </Paragraph>
+            <Paragraph>
+                <InlineUIContainer>
+                    <MediaElement Source="movie.mp4"/>
+                </InlineUIContainer>
+            </Paragraph>
+            <BlockUIContainer>
+                <Image Source="b7f86c7704a1daf8b4005fe78f7fb207_t01c86e0cd812d5454e_size=668x442.png"/>
+            </BlockUIContainer>
+        </FlowDocument>
+    </FlowDocumentReader>
+</Window>
